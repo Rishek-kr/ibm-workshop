@@ -567,3 +567,39 @@
 2025-04-29 14:46:08,337 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\rishek\eclipse-workspace\datatypes\src\test\resources
 2025-04-29 15:14:14,867 [Worker-85: Launching Application (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2025-04-29 15:14:14,868 [Worker-85: Launching Application (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-29 15:14:14,870 [Worker-85: Launching Application (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-29 15:14:14,870 [Worker-85: Launching Application (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\rishek\eclipse-workspace\datatypes\src\test\resources
+2025-04-29 15:29:40,263 [Worker-86: Creating quickstart-java8] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\rishek\eclipse-workspace\static\pom.xml
+2025-04-29 15:29:41,037 [Worker-86: Creating quickstart-java8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ibm:static:0.0.1-SNAPSHOT @ C:\rishek\eclipse-workspace\static\pom.xml.
+2025-04-29 15:29:41,105 [Worker-86: Creating quickstart-java8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /static/src/main/java
+2025-04-29 15:29:41,105 [Worker-86: Creating quickstart-java8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /static/src/main/resources
+2025-04-29 15:29:41,115 [Worker-86: Creating quickstart-java8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /static/src/test/java
+2025-04-29 15:29:41,198 [Worker-86: Creating quickstart-java8] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2025-04-29 15:29:41,503 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-29 15:29:41,504 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-29 15:29:41,506 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-29 15:29:41,506 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\rishek\eclipse-workspace\static\src\test\resources
+2025-04-29 15:30:26,911 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-29 15:30:26,913 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-29 15:30:26,914 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-29 15:30:26,914 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\rishek\eclipse-workspace\static\src\test\resources
+2025-04-29 15:30:48,816 [Worker-85: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ibm:static:0.0.1-SNAPSHOT @ C:\rishek\eclipse-workspace\_static\pom.xml.
+2025-04-29 15:30:48,831 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-29 15:30:48,832 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-29 15:30:48,833 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-29 15:30:48,833 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\rishek\eclipse-workspace\_static\src\test\resources
+2025-04-29 15:31:13,772 [Worker-89: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ibm:static:0.0.1-SNAPSHOT @ C:\rishek\eclipse-workspace\statics\pom.xml.
+2025-04-29 15:31:13,794 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-29 15:31:13,795 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-29 15:31:13,797 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-29 15:31:13,797 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\rishek\eclipse-workspace\statics\src\test\resources
+2025-04-29 15:31:37,905 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-29 15:31:37,906 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-29 15:31:37,907 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-29 15:31:37,907 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\rishek\eclipse-workspace\statics\src\test\resources
+2025-04-29 15:47:33,271 [Worker-90: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-29 15:47:33,272 [Worker-90: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-29 15:47:33,273 [Worker-90: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-29 15:47:33,273 [Worker-90: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\rishek\eclipse-workspace\statics\src\test\resources
+2025-04-29 15:48:25,687 [Worker-89: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-29 15:48:25,688 [Worker-89: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource

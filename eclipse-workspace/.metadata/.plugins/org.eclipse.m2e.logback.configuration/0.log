@@ -505,3 +505,33 @@
 2025-04-29 09:35:36,556 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2025-04-29 09:35:36,558 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2025-04-29 09:35:36,559 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-29 13:52:28,668 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo1.maven.org/maven2/fr/lteconsulting/archetypes/quickstart-java8/1.0/quickstart-java8-1.0.jar
+2025-04-29 13:52:28,967 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo1.maven.org/maven2/fr/lteconsulting/archetypes/quickstart-java8/1.0/quickstart-java8-1.0.jar
+2025-04-29 13:52:29,226 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo1.maven.org/maven2/fr/lteconsulting/archetypes/quickstart-java8/1.0/quickstart-java8-1.0.pom
+2025-04-29 13:52:29,516 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo1.maven.org/maven2/fr/lteconsulting/archetypes/quickstart-java8/1.0/quickstart-java8-1.0.pom
+2025-04-29 13:53:34,430 [Worker-55: Creating quickstart-java8] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\rishek\eclipse-workspace\arrays\pom.xml
+2025-04-29 13:53:35,324 [Worker-55: Creating quickstart-java8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ibm.com:arrays:0.0.1-SNAPSHOT @ C:\rishek\eclipse-workspace\arrays\pom.xml.
+2025-04-29 13:53:35,395 [Worker-55: Creating quickstart-java8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /arrays/src/main/java
+2025-04-29 13:53:35,396 [Worker-55: Creating quickstart-java8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /arrays/src/main/resources
+2025-04-29 13:53:35,409 [Worker-55: Creating quickstart-java8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /arrays/src/test/java
+2025-04-29 13:53:35,516 [Worker-55: Creating quickstart-java8] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2025-04-29 13:53:36,070 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-29 13:53:36,071 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-29 13:53:36,073 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-29 13:53:36,073 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\rishek\eclipse-workspace\arrays\src\test\resources
+2025-04-29 13:54:08,390 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-04-29 13:54:08,392 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-29 13:54:08,394 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-04-29 13:54:08,396 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-29 13:56:15,660 [Worker-58: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-29 13:56:15,661 [Worker-58: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-29 13:56:15,663 [Worker-58: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-29 13:56:15,663 [Worker-58: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\rishek\eclipse-workspace\arrays\src\test\resources
+2025-04-29 13:57:58,352 [Worker-58: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-29 13:57:58,353 [Worker-58: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-29 13:57:58,355 [Worker-58: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-29 13:57:58,355 [Worker-58: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\rishek\eclipse-workspace\arrays\src\test\resources
+2025-04-29 13:59:17,666 [Worker-61: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-29 13:59:17,666 [Worker-61: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-29 13:59:17,668 [Worker-61: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-29 13:59:17,668 [Worker-61: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\rishek\eclipse-workspace\arrays\src\test\resources

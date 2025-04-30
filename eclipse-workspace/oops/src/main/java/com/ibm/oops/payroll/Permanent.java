@@ -1,6 +1,6 @@
 package com.ibm.oops.payroll;
 
-public class Confirmed extends Employee {
+public class Permanent extends Employee {
 
 	@Override
 	public void salary() {

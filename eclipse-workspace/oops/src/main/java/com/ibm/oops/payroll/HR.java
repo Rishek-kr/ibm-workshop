@@ -10,6 +10,10 @@ public class HR {
 			return new Permanent();
 
 		}
+		else if (empType.equalsIgnoreCase("f")) {
+			return new Freelancer();
+
+		}
 		return null;
 	}
 	

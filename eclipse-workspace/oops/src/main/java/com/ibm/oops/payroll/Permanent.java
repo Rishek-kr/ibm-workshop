@@ -3,9 +3,12 @@ package com.ibm.oops.payroll;
 public class Permanent extends Employee {
 
 	@Override
-	public void salary() {
+	public void netPay() {
 		// TODO Auto-generated method stub
 		System.out.println("salary");
+	}
+	public void Transportation(){
+		System.out.println("Company Provided Transportation Benefit");
 	}
 
 }

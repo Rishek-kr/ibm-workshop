@@ -4,15 +4,16 @@ enum Apple{
 	GoldenDel(10),
 	RedDel(15),
 	Gala(20);
+	
 	private int price;
 	Apple(int cost){
 		price=cost;
 	}
+	
 	public int getPrice() {
 		return price;
 	}
 }
-
 
 public class Application
 {

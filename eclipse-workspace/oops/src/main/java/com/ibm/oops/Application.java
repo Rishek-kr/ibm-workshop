@@ -1,12 +1,16 @@
 package com.ibm.oops;
 
-import com.ibm.oops.pack1.Base1;
+import com.ibm.oops.payroll.Confirmed;
+import com.ibm.oops.payroll.Employee;
+import com.ibm.oops.payroll.Intern;
 
 public class Application
 {
 	public static void main( String[] args )
 	{
-		Base1 base1 = new Base1();
-		base1.pubf=100;
+		Employee employee = new Intern();
+		employee.salary();
+		employee= new Confirmed();
+		employee.salary();
 	}
 }

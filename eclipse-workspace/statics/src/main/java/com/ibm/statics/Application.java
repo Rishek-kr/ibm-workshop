@@ -34,6 +34,13 @@ class Human{
 class Man extends Human{
 	
 }
+class Month{
+	JAN,
+	FEB,
+	MAR,
+	APR
+}
+
 
 public class Application
 {
@@ -50,6 +57,8 @@ public class Application
 //		Data.value=77;
 //		new Data();
 //		System.out.println(data1.value+"\t"+data2.value);
-		Human.HumanEye.value=9;
+//		Human.HumanEye.value=9;
+		Months month = FEB;
+		System.out.println(month.toString()+APR);
 	}
 }

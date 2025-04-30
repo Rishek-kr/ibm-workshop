@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\rishek\eclipse-workspace\arrays"/>
+			<item value="C:\rishek\eclipse-workspace\maven-project\src\main\java\mavenproject"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -13,6 +15,7 @@
 		</list>
 	</section>
 	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
 			<item value="[artifactId]-TRUNK"/>
@@ -24,10 +27,18 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.ibm.static"/>
+			<item value="com.ibm.datatypes"/>
+			<item value="ibm.com.arrays"/>
 		</list>
 		<list key="groupId">
+			<item value="com.ibm"/>
+			<item value="ibm.com"/>
 		</list>
 		<list key="artifactId">
+			<item value="static"/>
+			<item value="datatypes"/>
+			<item value="arrays"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -43,12 +54,10 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="ibm.com"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="maven-project"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

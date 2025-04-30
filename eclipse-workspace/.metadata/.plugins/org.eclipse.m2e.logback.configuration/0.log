@@ -870,3 +870,7 @@
 2025-04-30 16:01:02,585 [Worker-93: Launching Application (4)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2025-04-30 16:01:02,587 [Worker-93: Launching Application (4)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2025-04-30 16:01:02,587 [Worker-93: Launching Application (4)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\rishek\eclipse-workspace\oops\src\test\resources
+2025-04-30 16:22:29,599 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-30 16:22:29,600 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-30 16:22:29,601 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-30 16:22:29,602 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\rishek\eclipse-workspace\oops\src\test\resources

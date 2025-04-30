@@ -38,7 +38,8 @@ public class Application
 //			finance.processSalary(employee);
 //		}
 		Process process = new Process();
-		process.execute(new HPPrinter());
+//		process.execute(new HPPrinter());
+		process.execute(()-> System.out.println("HP Printer printing..."));
 	}
 
 

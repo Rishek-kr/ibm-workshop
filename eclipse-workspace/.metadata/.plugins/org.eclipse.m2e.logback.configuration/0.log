@@ -900,3 +900,10 @@
 2025-04-30 17:10:11,211 [Worker-110: Launching Application (5)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2025-04-30 17:10:11,213 [Worker-110: Launching Application (5)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2025-04-30 17:10:11,213 [Worker-110: Launching Application (5)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\rishek\eclipse-workspace\exceptions\src\test\resources
+2025-04-30 17:11:09,485 [Worker-103: Launching Application (5)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-30 17:11:09,486 [Worker-103: Launching Application (5)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-30 17:11:09,488 [Worker-103: Launching Application (5)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-30 17:11:09,488 [Worker-103: Launching Application (5)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\rishek\eclipse-workspace\exceptions\src\test\resources
+2025-05-02 09:05:20,609 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-05-02 10:25:26,769 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-05-02 10:25:26,898 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource

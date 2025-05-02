@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.ibm.oops.pack1.Base1"/>
+    <fullyQualifiedTypeName name="com.ibm.oops.payroll.Employee"/>
+    <fullyQualifiedTypeName name="com.ibm.oops.payroll.Intern"/>
+    <fullyQualifiedTypeName name="com.ibm.oops.payroll.Confirmed"/>
+    <fullyQualifiedTypeName name="com.ibm.oops.payroll.Permanent"/>
+    <fullyQualifiedTypeName name="com.ibm.oops.payroll.HR"/>
+    <fullyQualifiedTypeName name="com.ibm.oops.payroll.Finance"/>
 </qualifiedTypeNameHistroy>

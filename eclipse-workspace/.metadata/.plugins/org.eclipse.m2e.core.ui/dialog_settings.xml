@@ -2,6 +2,10 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\rishek\eclipse-workspace"/>
+			<item value="C:\rishek\eclipse-workspace\oops"/>
+			<item value="C:\rishek\eclipse-workspace\statics"/>
+			<item value="C:\rishek\eclipse-workspace\statics\src\main\java\com\ibm\statics\Application.java"/>
 			<item value="C:\rishek\eclipse-workspace\arrays"/>
 			<item value="C:\rishek\eclipse-workspace\maven-project\src\main\java\mavenproject"/>
 		</list>
@@ -27,18 +31,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.ibm.static"/>
-			<item value="com.ibm.datatypes"/>
-			<item value="ibm.com.arrays"/>
+			<item value="com.ibm.exceptions"/>
 		</list>
 		<list key="groupId">
 			<item value="com.ibm"/>
-			<item value="ibm.com"/>
 		</list>
 		<list key="artifactId">
-			<item value="static"/>
-			<item value="datatypes"/>
-			<item value="arrays"/>
+			<item value="exceptions"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

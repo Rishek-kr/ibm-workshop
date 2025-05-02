@@ -15,7 +15,9 @@ public class Application
 			}catch(NumberFormatException ex){
 				System.out.println("Nested try block");
 			}
-			System.out.println("End of outer try block");
+			finally {
+				System.out.println("End of outer try block");
+			}
 		}
 //		}catch(ArrayIndexOutOfBoundsException ex){
 //			System.out.println("Run the program supplying a number");

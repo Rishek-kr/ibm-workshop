@@ -1,21 +1,23 @@
 package com.ibm.exceptions;
 
-class IllegalAgeException extends Throwable{
-	@Override
-	public String getMessage() {
-		return "You are not fit for voting";
-	}
-}
+import com.ibm.exceptions.math.Arithmatic;
 
-
-class ElectionVoting{
-	public void register(int age) throws IllegalAgeException{
-		if(age<18) {
-			throw new IllegalAgeException();
-		}
-		System.out.println("Registration completed");
-	}
-}
+//class IllegalAgeException extends Throwable{
+//	@Override
+//	public String getMessage() {
+//		return "You are not fit for voting";
+//	}
+//}
+//
+//
+//class ElectionVoting{
+//	public void register(int age) throws IllegalAgeException{
+//		if(age<18) {
+//			throw new IllegalAgeException();
+//		}
+//		System.out.println("Registration completed");
+//	}
+//}
 
 
 public class Application
@@ -24,7 +26,7 @@ public class Application
 	{
 //		String firstPara=null;
 //		String secondPara=null;
-//		System.out.println("Start");
+		System.out.println("Start");
 //		try {
 //			firstPara=args[0];
 //			secondPara=args[1];
@@ -53,12 +55,15 @@ public class Application
 //			System.out.println("Enter correct input");
 //			exception.printStackTrace();
 //		}
-		ElectionVoting electionVoting = new ElectionVoting();
-		try {
-			electionVoting.register(17);
-		}catch(IllegalAgeException e){
-			e.printStackTrace();
-		}
+//		ElectionVoting electionVoting = new ElectionVoting();
+//		try {
+//			electionVoting.register(17);
+//		}catch(IllegalAgeException e){
+//			e.printStackTrace();
+//		}
+//		
+		Arithmatic arithmatic = new Arithmatic();
+		assert ( arithmatic.sum(2, 4)==6):"The sum method is defective";
 		System.out.println("End");
 	}
 }

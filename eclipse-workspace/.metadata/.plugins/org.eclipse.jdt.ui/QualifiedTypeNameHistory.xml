@@ -8,4 +8,5 @@
     <fullyQualifiedTypeName name="com.ibm.oops.payroll.Permanent"/>
     <fullyQualifiedTypeName name="com.ibm.oops.payroll.HR"/>
     <fullyQualifiedTypeName name="com.ibm.oops.payroll.Finance"/>
+    <fullyQualifiedTypeName name="com.ibm.exceptions.math.Arithmatic"/>
 </qualifiedTypeNameHistroy>

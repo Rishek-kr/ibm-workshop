@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\rishek\eclipse-workspace\thread"/>
 			<item value="C:\rishek\eclipse-workspace"/>
 			<item value="C:\rishek\eclipse-workspace\oops"/>
 			<item value="C:\rishek\eclipse-workspace\statics"/>
@@ -31,12 +32,16 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.ibm.Object"/>
+			<item value="com.ibm.thread"/>
 			<item value="com.ibm.exceptions"/>
 		</list>
 		<list key="groupId">
 			<item value="com.ibm"/>
 		</list>
 		<list key="artifactId">
+			<item value="Object"/>
+			<item value="thread"/>
 			<item value="exceptions"/>
 		</list>
 		<list key="projectNameTemplate">

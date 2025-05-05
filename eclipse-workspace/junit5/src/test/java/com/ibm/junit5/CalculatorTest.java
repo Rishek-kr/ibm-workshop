@@ -33,10 +33,29 @@ class CalculatorTest {
 	@Test
 	void testSum() {
 //		fail("Not yet implemented");
+		System.out.println("Sum");
 		int expected = 6;
 		Calculator calculator = new Calculator();
 		int actual = calculator.sum(4, 2);
 		assertEquals(expected, actual);
 	}
+	@Test
+	void testDivide(){ 
+//		fail("Not yet implemented");
+		System.out.println("Divide");
+		int expected = 2;
+		Calculator calculator = new Calculator();
+		int actual = calculator.divide(4, 2);
+		assertEquals(expected, actual);
+	}
+	@Test
+	void testDivideByZeroException() {
+		System.out.println("divide");
+		Calculator calculator = new Calculator();
+		ArithmeticException exception = assertThrows(ArithmeticException.class,() -> calculator.divide(10, 0),
+				"Expected divide() to throw, but it didn't");
+		assertEquals("/ by zero", exception.getMessage());
+	}
+	
 
 }

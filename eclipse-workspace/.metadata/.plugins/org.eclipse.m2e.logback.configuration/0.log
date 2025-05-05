@@ -1030,3 +1030,5 @@
 2025-05-05 11:17:41,916 [Worker-42: Launching Application (7)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\rishek\eclipse-workspace\Object\src\test\resources
 2025-05-05 11:18:35,185 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2025-05-05 11:18:35,187 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-05-05 11:18:35,189 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-05-05 11:18:35,190 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\rishek\eclipse-workspace\Object\src\test\resources

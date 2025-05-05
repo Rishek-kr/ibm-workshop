@@ -7,11 +7,17 @@ public class Application
 {
 	public static void main( String[] args )
 	{
-		int vCPUs = Runtime.getRuntime().availableProcessors();
-		System.out.println(vCPUs);
-		ExecutorService service = Executors.newFixedThreadPool(vCPUs);
+//		int vCPUs = Runtime.getRuntime().availableProcessors();
+//		System.out.println(vCPUs);
+		ExecutorService service = Executors.newCachedThreadPool();
 		for(int counter=0;counter<10;counter++) {
 			service.execute(new Task(counter));
+			try {
+				Thread.sleep(10);
+			} catch (InterruptedException e) {
+				// TODO: handle exception
+				e.printStackTrace();
+			}
 		}
 	}
 	static class Task implements Runnable{

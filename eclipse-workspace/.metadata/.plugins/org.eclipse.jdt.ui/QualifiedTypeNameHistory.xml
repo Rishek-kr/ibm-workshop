@@ -9,4 +9,15 @@
     <fullyQualifiedTypeName name="com.ibm.oops.payroll.HR"/>
     <fullyQualifiedTypeName name="com.ibm.oops.payroll.Finance"/>
     <fullyQualifiedTypeName name="com.ibm.exceptions.math.Arithmatic"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="ch.qos.logback.core.util.Duration"/>
+    <fullyQualifiedTypeName name="java.time.Duration"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.params.ParameterizedTest"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.params.provider.ValueSource"/>
+    <fullyQualifiedTypeName name="java.util.ConcurrentModificationException"/>
+    <fullyQualifiedTypeName name="java.lang.Runtime"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.Executors"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.ExecutorService"/>
+    <fullyQualifiedTypeName name="java.lang.InterruptedException"/>
 </qualifiedTypeNameHistroy>

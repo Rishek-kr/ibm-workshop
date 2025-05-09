@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\rishek\eclipse-workspace\junit5"/>
 			<item value="C:\rishek\eclipse-workspace\thread"/>
 			<item value="C:\rishek\eclipse-workspace"/>
 			<item value="C:\rishek\eclipse-workspace\oops"/>
@@ -32,6 +33,8 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.ibm.threadpool"/>
+			<item value="com.ibm.junit5"/>
 			<item value="com.ibm.Object"/>
 			<item value="com.ibm.thread"/>
 			<item value="com.ibm.exceptions"/>
@@ -40,6 +43,8 @@
 			<item value="com.ibm"/>
 		</list>
 		<list key="artifactId">
+			<item value="threadpool"/>
+			<item value="junit5"/>
 			<item value="Object"/>
 			<item value="thread"/>
 			<item value="exceptions"/>

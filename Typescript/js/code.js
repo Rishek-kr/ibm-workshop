@@ -12,25 +12,30 @@
 // }
 // console.log(firstName);
 // Block scope example
-var x = 22;
-{
-    // const x = 90;
-    console.log(x);
-    {
-        var x_1 = 77;
-        console.log(x_1);
-    }
-    {
-        var x_2 = 45;
-        console.log(x_2);
-    }
-}
-console.log(x);
+// const x = 22;
+// {
+//     // const x = 90;
+//     console.log(x);
+//     {
+//         const x = 77;
+//         console.log(x);
+//     }
+//     {
+//         const x = 45;
+//         console.log(x);
+//     }
+// }
+// console.log(x);
 // Prompt and alert example
-var userInput = window.prompt("Please Enater your Input");
-if (userInput !== null) {
-    window.alert("Hello, ".concat(userInput, "!"));
-}
-else {
-    window.alert("You clicked Cancel or closed the prompt.");
+// let userInput: string | null = window.prompt("Please Enater your Input");
+// if(userInput!==null){
+//     window.alert(`Hello, ${userInput}!`);
+// }else{
+//      window.alert("You clicked Cancel or closed the prompt.");
+// }
+// DOM manipulation example
+var demoElement = document.getElementById("demo");
+if (demoElement) {
+    demoElement.style.fontSize = "35px";
+    demoElement.style.color = "red";
 }

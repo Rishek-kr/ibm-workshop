@@ -1,3 +1,4 @@
+// Variable scope example
 // firstFuction();
 // secondFuction();
 // let firstName : string | undefined;
@@ -10,6 +11,7 @@
 //     console.log(firstName);
 // }
 // console.log(firstName);
+// Block scope example
 var x = 22;
 {
     // const x = 90;
@@ -24,3 +26,11 @@ var x = 22;
     }
 }
 console.log(x);
+// Prompt and alert example
+var userInput = window.prompt("Please Enater your Input");
+if (userInput !== null) {
+    window.alert("Hello, ".concat(userInput, "!"));
+}
+else {
+    window.alert("You clicked Cancel or closed the prompt.");
+}

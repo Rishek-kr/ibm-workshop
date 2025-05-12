@@ -55,13 +55,23 @@
 // console.time();
 // console.timeEnd();
 // Grouping console logs
+// function f1() {
+//     console.group("Group 1");
+//     console.groupCollapsed();
+//     console.info("Getting Started");
+//     console.error("Something went wrong");
+//     console.log("logging this");
+//     console.groupEnd();
+//     console.info("Bye");
+// }
+// f1();
 function f1() {
-    console.group("Group 1");
-    console.groupCollapsed();
-    console.info("Getting Started");
-    console.error("Something went wrong");
-    console.log("logging this");
-    console.groupEnd();
-    console.info("Bye");
+    console.log('f1()');
 }
 f1();
+var f2 = function () {
+    console.log('f2()');
+};
+f2();
+var f3 = function () { return console.log('f3()'); };
+f3();

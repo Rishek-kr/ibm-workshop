@@ -92,26 +92,48 @@
 
         // function execution example
 
-function execute(operation: (num1: number, num2: number) => number) {
-    console.log(operation(2,4));
-}
+// function execute(operation: (num1: number, num2: number) => number) {
+//     console.log(operation(2,4));
+// }
 
-execute((num1,num2) => {return num1 + num2;});
+// execute((num1,num2) => {return num1 + num2;});
 
-execute((num1,num2) => {return (num1 + num2)/2;});
+// execute((num1,num2) => {return (num1 + num2)/2;});
 
 
 // method 1: using type annotation
-let numbers: number[] =[1,2,3,,4,5];
-numbers.push(6);
-console.log(numbers);
+// let numbers: number[] =[1,2,3,,4,5];
+// numbers.push(6);
+// console.log(numbers);
 
-let fruits: Array<string>=["apple","banana","orange"];
-fruits.push("mango");
-console.log(fruits);
+// let fruits: Array<string>=["apple","banana","orange"];
+// fruits.push("mango");
+// console.log(fruits);
 
-const colors: readonly string[]=['red','green','blue']
+// const colors: readonly string[]=['red','green','blue']
 
-let mixed: (string | number)[]=['hello',42,"world",100];
-mixed.push(200);
-mixed.push('typescript');
+// let mixed: (string | number)[]=['hello',42,"world",100];
+// mixed.push(200);
+// mixed.push('typescript');
+
+
+let person:[string,number]=["Alice",30];
+
+let book:[string,string,number?];
+book=["Title","Author"];
+book=["Title","Author",2023];
+
+let httpResponse:[number,string,...string[]]=[
+    200,
+    "OK",
+    "content-Type: application/json",
+    "X-Powered-BY: Express"
+];
+
+let point: [s:number, y:number]=[10,20];
+console.log(point[0]);
+console.log(point[1]);
+
+let [pname,age]=person;
+console.log(pname);
+console.log(age);

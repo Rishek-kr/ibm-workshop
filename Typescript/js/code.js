@@ -76,19 +76,35 @@
 // var f3 = ()=>console.log('f3()');
 // f3();
 // function execution example
-function execute(operation) {
-    console.log(operation(2, 4));
-}
-execute(function (num1, num2) { return num1 + num2; });
-execute(function (num1, num2) { return (num1 + num2) / 2; });
+// function execute(operation: (num1: number, num2: number) => number) {
+//     console.log(operation(2,4));
+// }
+// execute((num1,num2) => {return num1 + num2;});
+// execute((num1,num2) => {return (num1 + num2)/2;});
 // method 1: using type annotation
-var numbers = [1, 2, 3, , 4, 5];
-numbers.push(6);
-console.log(numbers);
-var fruits = ["apple", "banana", "orange"];
-fruits.push("mango");
-console.log(fruits);
-var colors = ['red', 'green', 'blue'];
-var mixed = ['hello', 42, "world", 100];
-mixed.push(200);
-mixed.push('typescript');
+// let numbers: number[] =[1,2,3,,4,5];
+// numbers.push(6);
+// console.log(numbers);
+// let fruits: Array<string>=["apple","banana","orange"];
+// fruits.push("mango");
+// console.log(fruits);
+// const colors: readonly string[]=['red','green','blue']
+// let mixed: (string | number)[]=['hello',42,"world",100];
+// mixed.push(200);
+// mixed.push('typescript');
+var person = ["Alice", 30];
+var book;
+book = ["Title", "Author"];
+book = ["Title", "Author", 2023];
+var httpResponse = [
+    200,
+    "OK",
+    "content-Type: application/json",
+    "X-Powered-BY: Express"
+];
+var point = [10, 20];
+console.log(point[0]);
+console.log(point[1]);
+var pname = person[0], age = person[1];
+console.log(pname);
+console.log(age);

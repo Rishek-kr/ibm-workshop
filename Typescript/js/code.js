@@ -34,8 +34,23 @@
 //      window.alert("You clicked Cancel or closed the prompt.");
 // }
 // DOM manipulation example
-var demoElement = document.getElementById("demo");
-if (demoElement) {
-    demoElement.style.fontSize = "35px";
-    demoElement.style.color = "red";
-}
+// const demoElement = document.getElementById("demo");
+// if(demoElement){
+//     demoElement.style.fontSize="35px";
+//     demoElement.style.color="blue";
+// }
+// console example
+console.info("You are awesome");
+console.log("IBM Technologies");
+console.log({
+    name: "Rishek Kumar",
+    age: 23,
+});
+console.log(["Apple", "Orange", "Banana"]);
+console.error("Something is wrong");
+console.table(["Apple", "grape", "Banana"]);
+console.assert(2 > 3, "It cannot be");
+// console.clear();
+console.warn("I usually grt ignored");
+console.time();
+console.timeEnd();

@@ -77,13 +77,25 @@
 // f1();
 
 
-function f1(){
-    console.log('f1()');
+// function f1(){
+//     console.log('f1()');
+// }
+// f1();
+// var f2 = function(){
+//     console.log('f2()');
+// }
+// f2();
+// var f3 = ()=>console.log('f3()');
+// f3();
+
+
+
+        // function executeion example
+
+function execute(operation: (num1: number, num2: number) => number) {
+    console.log(operation(2,4));
 }
-f1();
-var f2 = function(){
-    console.log('f2()');
-}
-f2();
-var f3 = ()=>console.log('f3()');
-f3();
+
+execute((num1,num2) => {return num1 + num2;});
+
+execute((num1,num2) => {return (num1 + num2)/2;});

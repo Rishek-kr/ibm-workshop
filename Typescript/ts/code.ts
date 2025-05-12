@@ -48,17 +48,30 @@
 
 
         // console example
-console.info("You are awesome");
-console.log("IBM Technologies");
-console.log({
-    name:"Rishek Kumar",
-    age:23,
-});
-console.log(["Apple", "Orange", "Banana"]);
-console.error("Something is wrong");
-console.table(["Apple", "grape", "Banana"])
-console.assert(2>3,"It cannot be");
-console.clear();
-console.warn("I usually grt ignored");
-console.time();
-console.timeEnd();
+// console.info("You are awesome");
+// console.log("IBM Technologies");
+// console.log({
+//     name:"Rishek Kumar",
+//     age:23,
+// });
+// console.log(["Apple", "Orange", "Banana"]);
+// console.error("Something is wrong");
+// console.table(["Apple", "grape", "Banana"])
+// console.assert(2>3,"It cannot be");
+// console.clear();
+// console.warn("I usually grt ignored");
+// console.time();
+// console.timeEnd();
+
+
+        // Grouping console logs
+function f1() {
+    console.group("Group 1");
+    console.groupCollapsed();
+    console.info("Getting Started");
+    console.error("Something went wrong");
+    console.log("logging this");
+    console.groupEnd();
+    console.info("Bye");
+}
+f1();

@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\rishek\eclipse-workspace\lamda"/>
 			<item value="C:\rishek\eclipse-workspace\datatypes"/>
 			<item value="C:\rishek\eclipse-workspace\junit5\src\main\java\com\ibm\junit5\Calculator.java"/>
 			<item value="C:\rishek\eclipse-workspace\junit5"/>
@@ -35,6 +36,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.ibm.spring"/>
 			<item value="com.ibm.lamda"/>
 			<item value="com.ibm.internationalization"/>
 			<item value="com.ibm.threadpool"/>
@@ -47,6 +49,7 @@
 			<item value="com.ibm"/>
 		</list>
 		<list key="artifactId">
+			<item value="spring"/>
 			<item value="lamda"/>
 			<item value="internationalization"/>
 			<item value="threadpool"/>

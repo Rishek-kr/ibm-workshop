@@ -117,23 +117,75 @@
 // mixed.push('typescript');
 
 
-let person:[string,number]=["Alice",30];
+// let person:[string,number]=["Alice",50];
 
-let book:[string,string,number?];
-book=["Title","Author"];
-book=["Title","Author",2023];
+// let book:[string,string,number?];
+// book=["Title","Author"];
+// book=["Title","Author",2023];
 
-let httpResponse:[number,string,...string[]]=[
-    200,
-    "OK",
-    "content-Type: application/json",
-    "X-Powered-BY: Express"
-];
+// let httpResponse:[number,string,...string[]]=[
+//     200,
+//     "OK",
+//     "content-Type: application/json",
+//     "X-Powered-BY: Express"
+// ];
 
-let point: [s:number, y:number]=[10,20];
-console.log(point[0]);
-console.log(point[1]);
+// let point: [s:number, y:number]=[10,20];
+// console.log(point[0]);
+// console.log(point[1]);
 
-let [pname,age]=person;
-console.log(pname);
-console.log(age);
+// let [pname,age]=person;
+// console.log(pname);
+// console.log(age);
+
+
+interface Person{
+    name:string;
+    age:number;
+    greet():void;
+}
+
+
+const john: Person={
+    name:"Rishek Kumar",
+    age:30,
+    greet() {
+        console.log(`Hello, my name is ${this.name}!`);
+    },
+};
+
+john.greet();
+
+class Employee implements Person{
+    constructor(
+        public name:string,
+        public age: number,
+        public jobTitle: string
+    ){}
+    greet(){
+        console.log(`Hi, I'm ${this.name}, a ${this.jobTitle}.`);
+    }
+}
+const sarah = new Employee("Sarah Smith",28,"Developer");
+sarah.greet();
+
+interface Book{
+    titel:string;
+    author:string;
+    pages?:number;
+}
+const book1: Book={titel:"TS Basics",author:"Jane Doe"};
+const book2: Book={titel:"Advanced TS",author:"John Smith",pages:100};
+
+interface Person1{
+    name:string;
+}
+
+interface Emp extends Person1{
+    id: number;
+}
+
+class Manager implements Emp{
+    name="Bob";
+    id=123;
+}

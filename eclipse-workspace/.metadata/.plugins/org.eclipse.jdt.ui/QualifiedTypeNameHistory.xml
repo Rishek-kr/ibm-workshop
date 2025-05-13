@@ -6,7 +6,6 @@
     <fullyQualifiedTypeName name="com.ibm.oops.payroll.Intern"/>
     <fullyQualifiedTypeName name="com.ibm.oops.payroll.Confirmed"/>
     <fullyQualifiedTypeName name="com.ibm.oops.payroll.Permanent"/>
-    <fullyQualifiedTypeName name="com.ibm.oops.payroll.HR"/>
     <fullyQualifiedTypeName name="com.ibm.oops.payroll.Finance"/>
     <fullyQualifiedTypeName name="com.ibm.exceptions.math.Arithmatic"/>
     <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
@@ -24,4 +23,11 @@
     <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
     <fullyQualifiedTypeName name="java.sql.Date"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.text.NumberFormat"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
+    <fullyQualifiedTypeName name="com.ibm.oops.payroll.HR"/>
+    <fullyQualifiedTypeName name="com.ibm.lamda.Process"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.util.ListIterator"/>
 </qualifiedTypeNameHistroy>

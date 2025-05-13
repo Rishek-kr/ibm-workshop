@@ -1582,3 +1582,16 @@
 2025-05-09 15:16:07,610 [Worker-51: Launching Application (10)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2025-05-09 15:16:07,611 [Worker-51: Launching Application (10)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2025-05-09 15:16:07,612 [Worker-51: Launching Application (10)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-05-09 15:16:07,612 [Worker-51: Launching Application (10)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\rishek\eclipse-workspace\lamda\src\test\resources
+2025-05-09 15:48:54,208 [Worker-65: Launching Application (10)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-05-09 15:48:54,209 [Worker-65: Launching Application (10)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-05-09 15:48:54,211 [Worker-65: Launching Application (10)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-05-09 15:48:54,211 [Worker-65: Launching Application (10)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\rishek\eclipse-workspace\lamda\src\test\resources
+2025-05-09 15:49:48,967 [Worker-66: Launching Application (10)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-05-09 15:49:48,969 [Worker-66: Launching Application (10)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-05-09 15:49:48,970 [Worker-66: Launching Application (10)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-05-09 15:49:48,971 [Worker-66: Launching Application (10)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\rishek\eclipse-workspace\lamda\src\test\resources
+2025-05-09 15:51:36,428 [Worker-54: Launching Application (10)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-05-09 15:51:36,429 [Worker-54: Launching Application (10)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-05-09 15:51:36,431 [Worker-54: Launching Application (10)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-05-09 15:51:36,432 [Worker-54: Launching Application (10)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\rishek\eclipse-workspace\lamda\src\test\resources

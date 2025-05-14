@@ -1,6 +1,7 @@
 package com.ibm.spring;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 
 public class TextEditor {
 	private SpellChecker spellChecker;
@@ -12,6 +13,7 @@ public class TextEditor {
 		this.spellChecker = spellChecker;
 	}
 	@Autowired
+//	@Qualifier("spellChecker2")
 	public void setSpellChecker(SpellChecker spellChecker) {
 		this.spellChecker = spellChecker;
 	}

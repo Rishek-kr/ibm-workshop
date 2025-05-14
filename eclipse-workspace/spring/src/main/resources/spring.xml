@@ -10,7 +10,9 @@
    
    <context:annotation-config/>
    <bean id="TextEditor" class="com.ibm.spring.TextEditor" scope="singleton"></bean>
-   <bean id="spellChecker" class="com.ibm.spring.SpellChecker" scope="singleton"></bean>
+   <bean id="spellChecker1" class="com.ibm.spring.SpellChecker" scope="singleton"></bean>
+   
+   <bean id="spellChecker2" class="com.ibm.spring.SpellChecker" scope="singleton"></bean>
 
 	<bean id="jCollection" class="com.ibm.spring.javaCollection">
 	<property name="addressList">

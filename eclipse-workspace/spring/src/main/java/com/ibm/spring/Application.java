@@ -13,13 +13,13 @@ public class Application {
 //		System.out.println("Hello "+greeting1.getName());
 //		System.out.println("Hello "+greeting2.getName());
 //		context.registerShutdownHook();
-//		TextEditor textEditor=(TextEditor)context.getBean("textEditor");
-//		textEditor.spellCheck();
-		javaCollection jc = (javaCollection)context.getBean("jCollection");	
-		jc.getAddressList();
-		jc.getAddressSet();
-		jc.getAddressMap();
-		jc.getAddressProp();
+		TextEditor textEditor=(TextEditor)context.getBean("TextEditor");
+		textEditor.spellCheck();
+//		javaCollection jc = (javaCollection)context.getBean("jCollection");	
+//		jc.getAddressList();
+//		jc.getAddressSet();
+//		jc.getAddressMap();
+//		jc.getAddressProp();
 		System.out.println("End");
 		
 	}

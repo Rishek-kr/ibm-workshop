@@ -7,7 +7,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Application {
 	public static void main(String[] args) {
-//		AbstractApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
+		AbstractApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
 //		Greeting greeting1 = (Greeting)context.getBean("greeting");
 //		System.out.println("Hello "+greeting1.getName());
 //		greeting1.setName("TCSer");
@@ -15,17 +15,17 @@ public class Application {
 //		System.out.println("Hello "+greeting1.getName());
 //		System.out.println("Hello "+greeting2.getName());
 //		context.registerShutdownHook();
-//		TextEditor textEditor=(TextEditor)context.getBean("TextEditor");
-//		textEditor.spellCheck();
+		TextEditor textEditor=(TextEditor)context.getBean("TextEditor");
+		textEditor.spellCheck();
 //		javaCollection jc = (javaCollection)context.getBean("jCollection");	
 //		jc.getAddressList();
 //		jc.getAddressSet();
 //		jc.getAddressMap();
 //		jc.getAddressProp();
-		ApplicationContext context = new AnnotationConfigApplicationContext(BeanConfig.class);
-		TextEditor textEditor=(TextEditor)context.getBean(TextEditor.class);
-		textEditor.spellCheck();
+//		ApplicationContext context = new AnnotationConfigApplicationContext(BeanConfig.class);
+//		TextEditor textEditor = (TextEditor) context.getBean(TextEditor.class);
+//		textEditor.spellCheck();
 		System.out.println("End");
-		
+
 	}
 }

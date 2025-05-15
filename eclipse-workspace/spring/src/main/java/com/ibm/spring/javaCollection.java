@@ -12,7 +12,7 @@ public class javaCollection {
 	Properties addressProp;
 
 	public List getAddressList() {
-		System.out.println("List Elements : "  + addressList);
+		System.out.println("List Elements : " + addressList);
 		return addressList;
 	}
 
@@ -21,7 +21,7 @@ public class javaCollection {
 	}
 
 	public Set getAddressSet() {
-		System.out.println("Set Elements : "  + addressSet);
+		System.out.println("Set Elements : " + addressSet);
 		return addressSet;
 	}
 
@@ -30,7 +30,7 @@ public class javaCollection {
 	}
 
 	public Map getAddressMap() {
-		System.out.println("Map Elements : "  + addressMap);
+		System.out.println("Map Elements : " + addressMap);
 		return addressMap;
 	}
 
@@ -39,7 +39,7 @@ public class javaCollection {
 	}
 
 	public Properties getAddressProp() {
-		System.out.println("Property Elements : "  + addressProp);
+		System.out.println("Property Elements : " + addressProp);
 		return addressProp;
 	}
 

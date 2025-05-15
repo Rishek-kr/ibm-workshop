@@ -36,6 +36,9 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.ibm.springmvc"/>
+			<item value="com.ibm.springMVC"/>
+			<item value="com.ibm.springJdbc"/>
 			<item value="com.ibm.spring"/>
 			<item value="com.ibm.lamda"/>
 			<item value="com.ibm.internationalization"/>
@@ -49,6 +52,9 @@
 			<item value="com.ibm"/>
 		</list>
 		<list key="artifactId">
+			<item value="springmvc"/>
+			<item value="springMVC"/>
+			<item value="springJdbc"/>
 			<item value="spring"/>
 			<item value="lamda"/>
 			<item value="internationalization"/>

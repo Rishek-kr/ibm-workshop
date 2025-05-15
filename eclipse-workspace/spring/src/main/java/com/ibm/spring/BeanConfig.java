@@ -6,13 +6,13 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class BeanConfig {
 	@Bean
-	public TextEditor textEditor(){
+	public TextEditor textEditor() {
 		return new TextEditor();
 	}
+
 	@Bean
 	public SpellChecker spellChecker() {
 		return new SpellChecker();
 	}
-	
 
 }

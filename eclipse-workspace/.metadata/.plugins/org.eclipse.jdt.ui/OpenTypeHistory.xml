@@ -2,4 +2,7 @@
 <typeInfoHistroy>
     <typeInfo handle="=oops/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ibm.oops.payroll{Employee.java[Employee" modifiers="1025" timestamp="1746004470597"/>
     <typeInfo handle="=junit5/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ibm.junit5{Calculator.java[Calculator" modifiers="1" timestamp="1746438359271"/>
+    <typeInfo handle="=springJdbc/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ibm.springJdbc{EmployeeDAO.java[EmployeeDAO" modifiers="513" timestamp="1747241712832"/>
+    <typeInfo handle="=springJdbc/C:\/Users\/RishekKumar\/.m2\/repository\/org\/springframework\/spring-jdbc\/5.3.39\/spring-jdbc-5.3.39.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/maven.groupId=/org.springframework=/=/maven.artifactId=/spring-jdbc=/=/maven.version=/5.3.39=/=/maven.scope=/compile=/&lt;org.springframework.jdbc.datasource.embedded(EmbeddedDatabaseConfigurer.class[EmbeddedDatabaseConfigurer" modifiers="1537" timestamp="1747205407596"/>
+    <typeInfo handle="=springJdbc/C:\/Users\/RishekKumar\/.m2\/repository\/org\/springframework\/spring-jdbc\/5.3.39\/spring-jdbc-5.3.39.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/maven.groupId=/org.springframework=/=/maven.artifactId=/spring-jdbc=/=/maven.version=/5.3.39=/=/maven.scope=/compile=/&lt;org.springframework.jdbc.core(RowMapper.class[RowMapper" modifiers="1537" timestamp="1747205407596"/>
 </typeInfoHistroy>

@@ -20,4 +20,9 @@ public class HomeController {
 	public ModelAndView aboutus(HttpServletResponse response) throws IOException{
 		return new ModelAndView("about");
 	}
+	
+	@RequestMapping(value="/EmployeeForm")
+	public ModelAndView employeeForm(HttpServletResponse response) throws IOException{
+		return new ModelAndView("EmployeeForm");
+	}
 }

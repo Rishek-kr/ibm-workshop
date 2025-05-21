@@ -11,6 +11,7 @@
         <h1>Hello World!</h1>
         <p>This is the homepage!</p>
         
-        <a href="about/">AboutUs</a>
+        <a href="about/">AboutUs</a><br><br>
+        <a href="employee/form">Registration Page</a>
     </body>
 </html>
